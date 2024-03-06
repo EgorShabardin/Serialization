@@ -1,0 +1,185 @@
+[
+  {
+    "__type": "ChildMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 17,
+      "birthMonth": 10,
+      "birthYear": 2009
+    },
+    "fullName": {
+      "name": "Андрей",
+      "patronymic": "Викторович",
+      "surname": "Петров"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Казань",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "20а",
+      "streetOfResidence": "Пушкина"
+    },
+    "classAtSchool": "8А",
+    "schoolName": "Гимназия №137"
+  },
+  {
+    "__type": "ChildMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 6,
+      "birthMonth": 6,
+      "birthYear": 2015
+    },
+    "fullName": {
+      "name": "Виктор",
+      "patronymic": "Петрович",
+      "surname": "Сергеев"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Москва",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "120",
+      "streetOfResidence": "Центральная"
+    },
+    "classAtSchool": "2Я",
+    "schoolName": "Школа №5"
+  },
+  {
+    "__type": "ChildMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 11,
+      "birthMonth": 1,
+      "birthYear": 2007
+    },
+    "fullName": {
+      "name": "Александр",
+      "patronymic": "Андреевич",
+      "surname": "Симонов"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Самара",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "5б",
+      "streetOfResidence": "Свободы"
+    },
+    "classAtSchool": "11Г",
+    "schoolName": "Лицей №1"
+  },
+  {
+    "__type": "AdultMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 20,
+      "birthMonth": 7,
+      "birthYear": 2000
+    },
+    "fullName": {
+      "name": "Виталий",
+      "patronymic": "Витальевич",
+      "surname": "Сидоров"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Екатерибург",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "2",
+      "streetOfResidence": "Моторная"
+    },
+    "workplace": "ООО Бездельники"
+  },
+  {
+    "__type": "AdultMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 2,
+      "birthMonth": 3,
+      "birthYear": 1994
+    },
+    "fullName": {
+      "name": "Евгений",
+      "patronymic": "Анатольевич",
+      "surname": "Алексеев"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Казань",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "10г",
+      "streetOfResidence": "Заводская"
+    },
+    "workplace": "Водоканал"
+  },
+  {
+    "__type": "AdultMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 31,
+      "birthMonth": 5,
+      "birthYear": 1987
+    },
+    "fullName": {
+      "name": "Алексей",
+      "patronymic": "Александрович",
+      "surname": "Андреев"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Пенза",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "18\/1",
+      "streetOfResidence": "Паровозная"
+    },
+    "workplace": "Электросети"
+  },
+  {
+    "__type": "PensionerMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 25,
+      "birthMonth": 9,
+      "birthYear": 1954
+    },
+    "fullName": {
+      "name": "Генадий",
+      "patronymic": "Юрьевич",
+      "surname": "Ефимов"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Краснодар",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "184",
+      "streetOfResidence": "Ленина"
+    },
+    "formerWorkplace": "ООО Завод"
+  },
+  {
+    "__type": "PensionerMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 1,
+      "birthMonth": 4,
+      "birthYear": 1944
+    },
+    "fullName": {
+      "name": "Марина",
+      "patronymic": "Генадьевна",
+      "surname": "Витальева"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Воронеж",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "22",
+      "streetOfResidence": "Ломоносова"
+    },
+    "formerWorkplace": "РЖД"
+  },
+  {
+    "__type": "PensionerMedicalCard:#MedicalCards",
+    "birthDate": {
+      "birthDay": 3,
+      "birthMonth": 11,
+      "birthYear": 1959
+    },
+    "fullName": {
+      "name": "Анна",
+      "patronymic": "Алексеевна",
+      "surname": "Петрова"
+    },
+    "placeOfResidence": {
+      "cityOfResidence": "Астрахань",
+      "countryOfResidence": "Россия",
+      "houseOfResidence": "9",
+      "streetOfResidence": "Производственная"
+    },
+    "formerWorkplace": "Магнит"
+  }
+]

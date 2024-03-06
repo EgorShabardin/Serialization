@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<ArrayOfMedicalCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MedicalCard xsi:type="ChildMedicalCard">
+    <fullName>
+      <name>Андрей</name>
+      <surname>Петров</surname>
+      <patronymic>Викторович</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Казань</cityOfResidence>
+      <streetOfResidence>Пушкина</streetOfResidence>
+      <houseOfResidence>20а</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>2009</birthYear>
+      <birthMonth>10</birthMonth>
+      <birthDay>17</birthDay>
+    </birthDate>
+    <schoolName>Гимназия №137</schoolName>
+    <classAtSchool>8А</classAtSchool>
+  </MedicalCard>
+  <MedicalCard xsi:type="ChildMedicalCard">
+    <fullName>
+      <name>Виктор</name>
+      <surname>Сергеев</surname>
+      <patronymic>Петрович</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Москва</cityOfResidence>
+      <streetOfResidence>Центральная</streetOfResidence>
+      <houseOfResidence>120</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>2015</birthYear>
+      <birthMonth>6</birthMonth>
+      <birthDay>6</birthDay>
+    </birthDate>
+    <schoolName>Школа №5</schoolName>
+    <classAtSchool>2Я</classAtSchool>
+  </MedicalCard>
+  <MedicalCard xsi:type="ChildMedicalCard">
+    <fullName>
+      <name>Александр</name>
+      <surname>Симонов</surname>
+      <patronymic>Андреевич</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Самара</cityOfResidence>
+      <streetOfResidence>Свободы</streetOfResidence>
+      <houseOfResidence>5б</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>2007</birthYear>
+      <birthMonth>1</birthMonth>
+      <birthDay>11</birthDay>
+    </birthDate>
+    <schoolName>Лицей №1</schoolName>
+    <classAtSchool>11Г</classAtSchool>
+  </MedicalCard>
+  <MedicalCard xsi:type="AdultMedicalCard">
+    <fullName>
+      <name>Виталий</name>
+      <surname>Сидоров</surname>
+      <patronymic>Витальевич</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Екатерибург</cityOfResidence>
+      <streetOfResidence>Моторная</streetOfResidence>
+      <houseOfResidence>2</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>2000</birthYear>
+      <birthMonth>7</birthMonth>
+      <birthDay>20</birthDay>
+    </birthDate>
+    <workplace>ООО Бездельники</workplace>
+  </MedicalCard>
+  <MedicalCard xsi:type="AdultMedicalCard">
+    <fullName>
+      <name>Евгений</name>
+      <surname>Алексеев</surname>
+      <patronymic>Анатольевич</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Казань</cityOfResidence>
+      <streetOfResidence>Заводская</streetOfResidence>
+      <houseOfResidence>10г</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>1994</birthYear>
+      <birthMonth>3</birthMonth>
+      <birthDay>2</birthDay>
+    </birthDate>
+    <workplace>Водоканал</workplace>
+  </MedicalCard>
+  <MedicalCard xsi:type="AdultMedicalCard">
+    <fullName>
+      <name>Алексей</name>
+      <surname>Андреев</surname>
+      <patronymic>Александрович</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Пенза</cityOfResidence>
+      <streetOfResidence>Паровозная</streetOfResidence>
+      <houseOfResidence>18/1</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>1987</birthYear>
+      <birthMonth>5</birthMonth>
+      <birthDay>31</birthDay>
+    </birthDate>
+    <workplace>Электросети</workplace>
+  </MedicalCard>
+  <MedicalCard xsi:type="PensionerMedicalCard">
+    <fullName>
+      <name>Генадий</name>
+      <surname>Ефимов</surname>
+      <patronymic>Юрьевич</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Краснодар</cityOfResidence>
+      <streetOfResidence>Ленина</streetOfResidence>
+      <houseOfResidence>184</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>1954</birthYear>
+      <birthMonth>9</birthMonth>
+      <birthDay>25</birthDay>
+    </birthDate>
+    <formerWorkplace>ООО Завод</formerWorkplace>
+  </MedicalCard>
+  <MedicalCard xsi:type="PensionerMedicalCard">
+    <fullName>
+      <name>Марина</name>
+      <surname>Витальева</surname>
+      <patronymic>Генадьевна</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Воронеж</cityOfResidence>
+      <streetOfResidence>Ломоносова</streetOfResidence>
+      <houseOfResidence>22</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>1944</birthYear>
+      <birthMonth>4</birthMonth>
+      <birthDay>1</birthDay>
+    </birthDate>
+    <formerWorkplace>РЖД</formerWorkplace>
+  </MedicalCard>
+  <MedicalCard xsi:type="PensionerMedicalCard">
+    <fullName>
+      <name>Анна</name>
+      <surname>Петрова</surname>
+      <patronymic>Алексеевна</patronymic>
+    </fullName>
+    <placeOfResidence>
+      <countryOfResidence>Россия</countryOfResidence>
+      <cityOfResidence>Астрахань</cityOfResidence>
+      <streetOfResidence>Производственная</streetOfResidence>
+      <houseOfResidence>9</houseOfResidence>
+    </placeOfResidence>
+    <birthDate>
+      <birthYear>1959</birthYear>
+      <birthMonth>11</birthMonth>
+      <birthDay>3</birthDay>
+    </birthDate>
+    <formerWorkplace>Магнит</formerWorkplace>
+  </MedicalCard>
+</ArrayOfMedicalCard>
