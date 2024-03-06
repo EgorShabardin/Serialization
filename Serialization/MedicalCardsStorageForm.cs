@@ -39,7 +39,7 @@ namespace Serialization
                     XmlSerializer xmlSerializer = new XmlSerializer(typeof(MedicalCard[]), new[] {typeof(ChildMedicalCard), typeof(AdultMedicalCard), typeof(PensionerMedicalCard)});
                     allMedicalCards = xmlSerializer.Deserialize(dataFile) as MedicalCard[];
                 }
-                else
+                else if (Path.GetExtension(dataFilePath) == ".json")
                 {
                     DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(MedicalCard[]), new[] {typeof(ChildMedicalCard), typeof(AdultMedicalCard), typeof(PensionerMedicalCard)});
                     allMedicalCards = jsonSerializer.ReadObject(dataFile) as MedicalCard[];
@@ -143,7 +143,7 @@ namespace Serialization
                 xmlSerializer.Serialize(dataFile, allMedicalCards);
                 dataFile.Close();
             }
-            else
+            else if (Path.GetExtension(dataFilePath) == ".json")
             {
                 DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(MedicalCard[]), new[] {typeof(ChildMedicalCard), typeof(AdultMedicalCard), typeof(PensionerMedicalCard)});
                 FileStream dataFile = new FileStream("ProgramFiles/allMedicalCards.json", FileMode.OpenOrCreate);
